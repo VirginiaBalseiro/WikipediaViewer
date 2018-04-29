@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(to right, rgb(250,176,114), rgb(250, 128, 114));
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Bevan', cursive;
+}
+#searchTerm {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 2px;
+  width: 20%;
+}
+
+#output {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#social-button {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#social-button:focus {
+  outline: none;
+}
+
+#social {
+  display: none;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.brace,
+#ellipsis{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
